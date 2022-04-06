@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12.49mm"
+   height="7.974mm"
+   viewBox="0 0 12.49 7.9740001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="sf.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.52347032"
+     inkscape:cx="457.52355"
+     inkscape:cy="284.63887"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showborder="true"
+     inkscape:showpageshadow="true" />
+  <defs
+     id="defs2">
+    <rect
+       x="5.7309842"
+       y="5.7309842"
+       width="326.66608"
+       height="240.70132"
+       id="rect43281" />
+    <rect
+       x="-674.05212"
+       y="67.540291"
+       width="1872.2169"
+       height="767.25775"
+       id="rect1749" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,177.86769,-19.820767)"
+       id="text1747"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1749);fill:#0000ff;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.2086507,-3.3375352)"
+       id="text43279"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43281);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="5.7304688"
+         y="42.223681"
+         id="tspan47234">S<tspan
+   style="fill:#008000"
+   id="tspan47232">F</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+header{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1.2fr;
+    height: 6em;
+    margin: 0% 10%;
+}
+
+.samokat{
+    height: inherit;
+    color: #000000;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    height: inherit;
+    color: #119911;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.repair{
+    height: inherit;
+    color: #000000;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.address{
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2em;
+}
+
+.phones{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.phones a{
+    color: #009900;
+}
+
+.phone-png{
+    height: 4em;
+    width: auto;
+}
+
+.address-png{
+    height: 4em;
+    width: auto;
+}
+
+.row-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+img{
+    margin: 0.5em;
+}
