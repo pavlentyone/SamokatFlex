@@ -1,3 +1,19 @@
 section{
-    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0% 10%;
+}
+
+section div{
+    margin: 2em 0em;
+}
+
+.text-on-img{
+    color: #22cc22;
+    font-size: 1.6em;
+    margin: 1em;
+}
+
+.section-img{
+    width: 100%;
 }

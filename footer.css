@@ -1,6 +1,16 @@
 footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
     height: 5em;
-    margin:0.5% 0%;
-    color: #009900;
+    color: #22cc22;
     background-color: #000000;
+    padding: 0% 10%;
 }
+.social a{
+    margin: 0.5em;
+}
+.social a img{
+    height: 3em;
+}
+
