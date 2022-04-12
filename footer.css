@@ -1,6 +1,6 @@
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     height: 5em;
     color: #22cc22;
@@ -11,6 +11,20 @@ footer{
     margin: 0.5em;
 }
 .social a img{
-    height: 3em;
+    height: 2em;
+}
+
+.social{
+    padding: 0% 0%;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    footer{
+        grid-template-columns: 1fr 1fr;
+        padding: 0% 0%;
+
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 

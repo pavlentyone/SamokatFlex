@@ -1,13 +1,13 @@
 header{
     display: grid;
-    grid-template-columns: 2fr 1.2fr 1.2fr;
-    height: 6em;
+    grid-template-columns: 1.2fr 0.8fr 0.8fr;
+    height: auto;
     margin: 0% 10%;
 }
 
 .samokat{
     height: inherit;
-    color: #000000;
+    color: #ffffff;
     font-size: 4em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +21,7 @@ header{
 
 .repair{
     height: inherit;
-    color: #000000;
+    color: #ffffff;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -41,6 +41,7 @@ header{
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .phones{
@@ -50,6 +51,7 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .phones a{
@@ -66,13 +68,26 @@ header{
     width: auto;
 }
 
-.row-align{
+.address{
+    color: #22cc22;
+}
+
+.header-div{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 }
 
-row-align img{
-    margin: 0.5em;
+@media(max-aspect-ratio: 1/1)
+{
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-div{
+        display: none;
+    }
+
 }
