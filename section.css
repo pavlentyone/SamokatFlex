@@ -1,15 +1,15 @@
 section{
     display: flex;
     flex-direction: column;
-    margin: 0% 10%;
+    margin: 0vw 10vw;
 }
 
 .text-on-img{
     color: #ffffff;
     position: absolute;
-    font-size: 1.6em;
+    font-size: 2vw;
+    width: 50vw;
     z-index: 2;
-    box-shadow: 3em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,37 +17,32 @@ section{
 .img-and-text{
     display: block;
     position: relative;
-    width: 100%;
-    margin-bottom: 2em;
+    width: 80vw;
+    margin-bottom: 5vh;
 }
 
 .odd .section-img{
-    height: 100%;
-    width: 80%;
-    margin-left: 20%;
+    height: 40vw;
+    width: 60vw;
+    margin-left: 20vw;
     object-fit: cover;
 }
 
 .even .section-img{
-    height: 100%;
-    width: 80%;
-    margin-right: 20%;
+    height: 40vw;
+    width: 60vw;
+    margin-right: 20vw;
     object-fit: cover;
 }
 
 .odd .text-on-img{
-    margin-right: 30%;
+    margin-right: 30vw;
 }
 .even .text-on-img{
-    margin-left: 30%;
+    margin-left: 30vw;
 }
 body{
     background-color: #222222;
-}
-
-.map{
-    width: 100%;
-    
 }
 
 @media (max-aspect-ratio: 1/1) {
@@ -56,7 +51,7 @@ body{
     }
 
     section div{
-        margin: 0em 0em;
+        margin: 0%;
     }
 
     .text-on-img{
