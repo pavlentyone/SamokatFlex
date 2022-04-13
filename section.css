@@ -5,11 +5,13 @@ section{
 }
 
 .text-on-img{
-    color: #ffffff;
+    color: #22aa22;
     position: absolute;
     font-size: 2vw;
-    width: 50vw;
+    width: 60vw;
     z-index: 2;
+    margin-left: 10vw;
+    text-shadow: 0 0 10px #222222;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,24 +24,17 @@ section{
 }
 
 .odd .section-img{
-    height: 40vw;
-    width: 60vw;
-    margin-left: 20vw;
+    height: 60vw;
+    width: 80vw;
+    margin-left: 0vw;
     object-fit: cover;
 }
 
 .even .section-img{
-    height: 40vw;
-    width: 60vw;
-    margin-right: 20vw;
+    height: 60vw;
+    width: 80vw;
+    margin-right: 0vw;
     object-fit: cover;
-}
-
-.odd .text-on-img{
-    margin-right: 30vw;
-}
-.even .text-on-img{
-    margin-left: 30vw;
 }
 body{
     background-color: #222222;
@@ -80,5 +75,6 @@ body{
         display: flex;
         flex-direction: column;
         margin: 0%;
+        width: 100vw;
     }
 }

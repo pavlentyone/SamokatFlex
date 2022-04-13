@@ -2,20 +2,24 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    height: 5em;
+    height: 5vw;
     color: #22cc22;
     background-color: #000000;
     padding: 0% 10%;
 }
 .social a{
-    margin: 0.5em;
+    margin: 0.5vw;
 }
 .social a img{
-    height: 2em;
+    height: 2vw;
 }
 
 .social{
     padding: 0% 0%;
+}
+
+.info{
+    font-size: 1vw;
 }
 
 @media (max-aspect-ratio: 1/1) {
