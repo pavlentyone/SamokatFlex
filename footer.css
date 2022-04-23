@@ -33,13 +33,13 @@ footer{
         justify-content: space-evenly;
     }
 
-    
-.social a img{
-    height: 5vw;
-}
+        
+    .social a img{
+        height: 5vw;
+    }
 
-.info{
-    font-size: 2vw;
-}
+    .info{
+        font-size: 2vw;
+    }
 }
 
