@@ -1,4 +1,5 @@
 footer{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -11,7 +12,8 @@ footer{
     margin: 0.5vw;
 }
 .social a img{
-    height: 2vw;
+    height: 3vw;
+    width: auto;
 }
 
 .social{
@@ -26,9 +28,18 @@ footer{
     footer{
         grid-template-columns: 1fr 1fr;
         padding: 0% 0%;
-
+        height: 7vw;
         display: flex;
         justify-content: space-evenly;
     }
+
+    
+.social a img{
+    height: 5vw;
+}
+
+.info{
+    font-size: 2vw;
+}
 }
 
